@@ -1,5 +1,7 @@
     Gamecube Controller to SNES Adapater, Connor Horman 2018
-    This program is intended to be compiled on a Raspberry Pi, using GCC and G++. To compile run g++ -o <Output File> SNES-Controller.cpp GCController.cpp SNESToGCAdpater.cpp & gcc gpio.c gpio/tinyGpio.c
+    This program is intended to be compiled on a Raspberry Pi, using GCC and G++.
+    To compile run g++ -o <Output File> SNES-Controller.cpp GCController.cpp SNESToGCAdpater.cpp & gcc gpio.c gpio/tiny_gpio.c
+    This program requires root access to utilize the GPIO pins. To run this program you must use sudo or it will not work correctly.
     
     This program allows you to use a raspberry pi to adapt Input from a Gamecube Controller to a SNES Controller output.
     The program can support up to 2 inputs and 2 outputs, both input ports must be provided by you and attached to the GPIO pins yourself.
