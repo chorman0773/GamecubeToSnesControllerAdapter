@@ -1,8 +1,8 @@
 
 	Gpio usuage library, Connor Horman, 2018
 	This library encompasses the gpio.h and gpio.c files used by the rest of the programs.
-	This library enables Reading/Writing as well as Serial Data Transfer via the GPIO header. This particular implementation wraps the
-	tinyGpio library. This library requires root permission to use, all programs compiled with this implementation must be run via sudo or they will not work as intented.
+	This library enables Reading/Writing as well as Serial Data Transfer via the GPIO header. This particular implementation wraps the tinyGpio library.
+	This library requires root permission to use, all programs compiled with this implementation must be run via sudo or they will not work as intented.
 	
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
